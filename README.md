@@ -32,5 +32,4 @@ Generally, process flow in LangChain Agent as following:
 
 
 ## reference:
-Great tutorial  from freeCodoeCamp.org [LangChain Crash Course for Beginner](https://www.youtube.com/watch?v=lG7Uxts9SXs)
-timestamp checkpoint: 55:11 / 1:05:29
+- Great tutorial  from freeCodoeCamp.org [LangChain Crash Course for Beginner](https://www.youtube.com/watch?v=lG7Uxts9SXs)
