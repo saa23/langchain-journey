@@ -28,14 +28,14 @@ def create_vector_db_from_youtube_url(video_url) -> FAISS:
 def get_response_from_query(db, query, k=4):
     # text-davinci can handle 4097 tokens
 
-    docs = db.similary_search(query, k=k)
+    docs = db.similarity_search(query, k=k)
     docs_page_content = " ".join([d.page_content for d in docs])
 
     llm = OpenAI(model="text-davinci-003")
 
     prompt = PromptTemplate(
-    input_variables=["question","docs"]
-    template-"""
+    input_variables=["question","docs"],
+    template="""
 You are a helpful YouTube assistant that can answer questions about videos based on the video's transcript.
 
 Answer the following question: {question}

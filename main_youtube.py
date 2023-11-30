@@ -33,7 +33,7 @@ if query and youtube_url:
     #     st.info("Please add your OpenAI API key to continue.")
     #     st.stop()
     # else:
-        db = lch.create_db_from_youtube_video_url(youtube_url)
-        response, docs = lch.get_response_from_query(db, query)
+        db = lch.create_vector_db_from_youtube_url(youtube_url)
+        response = lch.get_response_from_query(db, query)
         st.subheader("Answer:")
         st.text(textwrap.fill(response, width=85))
