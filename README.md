@@ -32,8 +32,8 @@ Generally, process flow in LangChain Agent as following:
 - **Final Answer**: The answer send to the environment.
 
 
-## reference:
-- Great tutorial  from freeCodeCamp [LangChain Crash Course for Beginner](https://www.youtube.com/watch?v=lG7Uxts9SXs)
+## References:
+- Great tutorial from freeCodeCamp [LangChain Crash Course for Beginner](https://www.youtube.com/watch?v=lG7Uxts9SXs)
 - Awesome articles from Ivan Reznikov [LangChain 101 Course](https://medium.com/@ivanreznikov/langchain-101-course-updated-668f7b41d6cb) 
     - [CheatSheet](https://pub.towardsai.net/langchain-cheatsheet-all-secrets-on-a-single-page-8be26b721cde)
     - [Building Simple App](https://pub.towardsai.net/langchain-101-part-1-building-simple-q-a-app-90d9c4e815f3)
